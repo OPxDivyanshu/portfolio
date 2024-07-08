@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const typewriter = document.getElementById('typewriter');
-    const phrases = ["Programmer", "Gamer", "Developer"];
+    const phrases = ["Web Dev", "Rookie"];
     let currentPhraseIndex = 0;
     let currentText = ' ';
 
