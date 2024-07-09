@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width", initial-scale="scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://hammerjs.github.io/dist/hammer.min.js"></script>
     <script src="main.js" defer></script>
     <title>Portfolio</title>
 </head>
@@ -26,7 +27,7 @@
         </svg>
     </label>
     <label id="overlay" for="sidebar1"></label>
-    <div class="links-ct">
+   <div class="links-ct">
         <label for="sidebar1" id="side0">
             <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed">
                 <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
@@ -70,11 +71,43 @@
 
 
 
-
+   
     <section id="projects">
-        <h1 class="projects-header">Projects</h1>
-        <div class="projects-ct" class="slide-in from-left">
-            
+        <h2 class="projects-header">My Projects</h2>
+        <div class="slider-container">
+            <div id="slider">
+                <div class="project-card">
+                    <h3 class="project-title">Project 1</h3>
+                    <p class="project-description">Temprature</p>
+                    <a href="https://opxdivyanshu.github.io/ctf/" target="_" class="project-link">Visit</a>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="project-title">Project 2</h3>
+                    <p class="project-description">Calculator</p>
+                    <a href="https://opxdivyanshu.github.io/neoncalculator/"target="_" class="project-link">Visit</a>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="project-title">Project 3</h3>
+                    <p class="project-description">Number Guesser</p>
+                    <a href="https://opxdivyanshu.github.io/random-number-guess/"target="_" class="project-link">Visit</a>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="project-title">Project 4</h3>
+                    <p class="project-description">Stop Watch</p>
+                    <a href="https://opxdivyanshu.github.io/stopwatch/"target="_" class="project-link">Visit</a>
+                </div>
+                
+                <div class="project-card">
+                    <h3 class="project-title">Project 5</h3>
+                    <p class="project-description">Counter</p>
+                    <a href="https://opxdivyanshu.github.io/counter/"target="_" class="project-link">Visit</a>
+                
+                </div>
+                
+            </div>
         </div>
     </section>
 
